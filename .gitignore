@@ -1,44 +1,127 @@
+# Swap files
 .*.swp
+
+# Object files
 *.o
 *.xo
 *.so
+*.a
 *.d
+*.dylib
+*.dll
+*.lib
+*.pdb
+
+# Executables
+*.exe
+*.out
+
+# Log files
 *.log
-dump.rdb
-redis-benchmark
-redis-check-aof
-redis-check-rdb
-redis-check-dump
-redis-cli
-redis-sentinel
-redis-server
-doc-tools
-release
-misc/*
-src/release.h
-appendonly.aof*
-appendonlydir
-SHORT_TERM_TODO
-release.h
-src/transfer.sh
-src/configs
-redis.ds
-src/redis.conf
-src/nodes.conf
-deps/lua/src/lua
-deps/lua/src/luac
-deps/lua/src/liblua.a
-deps/hdr_histogram/libhdrhistogram.a
-deps/fpconv/libfpconv.a
-deps/fast_float/libfast_float.a
-tests/tls/*
-.make-*
-.prerequisites
-*.dSYM
-Makefile.dep
-.vscode/*
-.idea/*
+
+# Build directories
+build/
+cmake-build-*/
+.build/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
 .ccls
-.ccls-cache/*
+.ccls-cache/
 compile_commands.json
-redis.code-workspace
+.clangd/
+
+# System files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Generated files
+src/version.h
+src/release.h
+release.h
+
+# Test artifacts
+test_results/
+*.test
+
+# Documentation build
+docs/_build/
+docs/html/
+docs/latex/
+
+# Package files
+*.tar.gz
+*.zip
+*.deb
+*.rpm
+
+# RDB files (our library's output)
+*.rdb
+*.rdb.tmp
+*.rdb.bak
+
+# Example and test data
+examples/data/
+tests/data/
+tests/temp/
+
+# Configuration files (except templates)
+*.conf
+!*.conf.template
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# Dependencies (if using git submodules or vendored deps)
+deps/*/
+third_party/*/
+!deps/.gitkeep
+!third_party/.gitkeep
+
+# Static analysis
+.scan-build/
+*.scan
+
+# Coverage reports
+coverage/
+*.gcov
+*.gcda
+*.gcno
+lcov.info
+
+# Profiling data
+*.prof
+gmon.out
+perf.data*
+
+# Memory debugging
+valgrind-*.log
+*.memcheck
+
+# Platform specific
+# Windows
+*.pdb
+*.ilk
+
+# macOS
+.DS_Store
+*.dSYM/
+
+# Linux
+core
+core.*

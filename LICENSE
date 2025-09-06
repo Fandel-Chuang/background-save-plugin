@@ -1,0 +1,92 @@
+Background Save Plugin License (MIT-Based with Additional Restrictions)
+
+Copyright (c) 2024 钟芳道 (DJD) and Background Save Plugin Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software subject to the following conditions and limitations:
+
+## Basic Permissions
+
+You may use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and permit persons to whom the Software is furnished
+to do so, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+## Additional Restrictions and Limitations
+
+### Redis-Related Restrictions
+
+2. **No Redis Competition Clause**: You may not use this Software, in whole or in part,
+   to create, develop, or operate a database service, caching service, or key-value
+   store service that directly competes with Redis Open Source or Redis Enterprise
+   offerings, unless you have obtained explicit written permission from the copyright
+   holder.
+
+3. **No Redis Trademark Infringement**: You may not use the name "Redis", "Redis Labs",
+   "Redis Ltd.", or any Redis-related trademarks in connection with your use of this
+   Software without explicit permission from Redis Ltd.
+
+4. **Service Provider Restrictions**: If you are a cloud service provider, hosting
+   provider, or software-as-a-service provider, you may not offer this Software
+   as a managed service or hosted solution without:
+   - Clearly attributing this Software in your service documentation
+   - Providing prominent notice that your service is "Powered by Background Save Plugin"
+   - Contributing back any significant improvements to the original project
+
+### Commercial Use Limitations
+
+5. **Large Enterprise Clause**: Organizations with more than 1000 employees or
+   annual revenue exceeding $100 million USD must:
+   - Obtain a commercial license for production use, OR
+   - Contribute at least one significant feature or bug fix back to the project annually, OR
+   - Provide financial sponsorship to the project maintainer
+
+6. **Cloud Service Limitations**: You may not make the functionality of this Software
+   available to third parties as a primary service offering unless you:
+   - Open source any modifications or extensions you make to this Software
+   - Provide clear attribution and links back to the original project
+   - Share usage statistics and performance improvements with the maintainer
+
+## Standard MIT Provisions
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Enforcement and Violations
+
+Violation of any of the above additional restrictions will result in automatic
+termination of your license to use this Software. The copyright holder reserves
+the right to seek legal remedies for any violations.
+
+For commercial licensing inquiries or permission requests, contact:
+zhongfangdao888@gmail.com
+
+---
+
+## Third-Party Components
+
+This software is inspired by Redis's RDB format and background save mechanisms,
+but contains no Redis source code. Any implementation references are based on
+publicly available documentation and specifications.
+
+### Dependencies (if applicable):
+- LZF compression library (BSD-2-Clause) - Optional
+- CRC64 implementation (Public Domain or compatible)
+
+## Attribution
+
+While this software is inspired by Redis concepts, it is an independent
+implementation. Redis is a trademark of Redis Ltd.
+
+---
+
+**Project Maintainer:** 钟芳道 (DJD) - zhongfangdao888@gmail.com
+**Project Repository:** https://github.com/your-repo/background-save-plugin
